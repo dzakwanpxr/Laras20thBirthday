@@ -89,3 +89,13 @@ p {
     text-decoration: none;
     color: inherit;
 }
+
+.gift {
+    width: 1000px;
+    height: 1000px;
+}
+
+.gift-2 {
+    width: 500px;
+    height: 500px;
+}
