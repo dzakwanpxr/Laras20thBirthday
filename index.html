@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Laras!</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <!-- CSS ANIMATIONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <nav class="blue-bg d-flex p-5 text-white justify-content-end gap-3">
+            <button type="button" class="btn btn-dark mute-audio-btn border-black" onclick="muteAudio()"><i
+                    class="bi bi-volume-mute"></i> Mute Audio</button>
+            <button type="button" class="btn btn-light unmute-audio-btn text-black" onclick="unmuteAudio()"><i
+                    class="bi bi-volume-up"></i> Unmute Audio</button>
+        </nav>
+
+        <section class="blue-bg d-flex flex-column align-items-center p-5 text-white">
+            <img class="laras-img mb-5 animate__animated animate__fadeInDown" src="img/laras-img-modified.png" alt="">
+            <h1 class="animate__animated animate__fadeInDown">HAPPY 20<sup>th</sup> BIRTHDAY!</h1>
+            <h1 class="animate__animated animate__fadeInDown">LARAS ANGGRAINI</h1>
+        </section>
+
+        <section class="green-bg d-flex flex-column align-items-center p-5">
+            <h1>BIRTHDAY IS INCOMPLETE WITHOUT A GIFTS RIGHT?</h1>
+            <h1>CLAIM YOUR GIFTS!</h1>
+            <div class="d-flex gift-box">
+                <div class="gift-list d-flex flex-column px-3">
+                    <img class="gift-item animate__animated animate__pulse animate__infinite" src="img/gift-2.png" alt="gift-box">
+                    <a class="btn btn-primary btn-lg gift-btn">CLAIM</a>
+                </div>
+                <div class="gift-list d-flex flex-column flex-grow-1 px-3">
+                    <img class="gift-item animate__animated animate__pulse animate__infinite" src="img/gift-1.png" alt="gift-box">
+                    <a class="btn btn-primary btn-lg gift-btn" target="_blank">CLAIM</a>
+                </div>
+                <div class="gift-list d-flex flex-column  px-3">
+                    <img class="gift-item animate__animated animate__pulse animate__infinite" src="img/gift-3.png" alt="gift-box">
+                    <a class="btn btn-primary btn-lg gift-btn" target="_blank">CLAIM</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="blue-bg d-flex flex-column align-items-center p-5 text-white">
+            <h1>My Wishes.</h1>
+            <a href="https://docs.google.com/document/d/1wgCRhBxJQwN22uaIp1pMUb8svdHrpK9FojDHOMN41k4/edit?usp=sharing"
+                target="_blank"><button type="button"
+                    class="btn btn-success btn-lg text-black my-3 btn-wish">PRAY</button></a>
+        </section>
+
+        <section class="green-bg d-flex flex-column align-items-center p-5">
+            <h1>Documentation</h1>
+            <a href="https://docs.google.com/document/d/1GOSB9JvKFZ8XyV-dR-okr8-bXhcdzJUCCjOvIOHorJA/edit?usp=sharing"
+                target="_blank"><button type="button"
+                    class="btn btn-primary btn-lg text-black my-3 btn-doc text-white">READ</button></a>
+        </section>
+
+        <footer class="blue-bg d-flex flex-column align-items-center p-4 text-white">
+            Made with ❤ by Pixer
+            <audio id="bg-audio" src="sounds/Petit-poney.mp3"></audio>
+        </footer>
+
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
